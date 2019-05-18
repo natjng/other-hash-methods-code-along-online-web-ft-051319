@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
+  binding.pry
   groceries.keys
 end
